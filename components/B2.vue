@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 :id="heading" :class="heading">Heading</h1>
+    <h1 :elementId="heading">Heading</h1>
   </div>
 </template>
 
@@ -8,4 +8,8 @@
 const heading = "heading";
 </script>
 
-<style></style>
+<style>
+#heading {
+  color: blue;
+}
+</style>
