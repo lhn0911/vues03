@@ -6,9 +6,9 @@
 
 <script setup>
 const url = "http://www.google.com/";
-const isValidUrl = url.startsWith("https://");
 
 const preventNavigation = (event) => {
+  const isValidUrl = url.startsWith("https://");
   if (!isValidUrl) {
     event.preventDefault();
     alert("Đường dẫn không hợp lệ");

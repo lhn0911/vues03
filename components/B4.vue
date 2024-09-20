@@ -10,9 +10,9 @@ const isActive = true;
 
 <style>
 .div {
-  margin: 20px 0;
-  padding: 10px;
-  background-color: blue;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: rgb(23, 165, 139);
   color: black;
 }
 .active {

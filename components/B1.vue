@@ -1,12 +1,12 @@
 <template>
   <div>
-    <img :src="urlImage" alt="" />
+    <img :src="ImageUrl" alt="" />
   </div>
 </template>
 
 <script setup>
-const urlImage =
-  "https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-powder-smoke-colorful-background-image_2164096.jpg";
+const ImageUrl =
+  "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhi-1--Nang-Tre.jpg";
 </script>
 
 <style></style>
